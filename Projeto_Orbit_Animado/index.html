@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Orbit - Landing Page Animada</title>
+  </head>
+
+  <body>
+    <main id="main">
+      <nav class="nav-container">
+        <a class="brand" href="#inicio">ORBIT<span>LAB</span></a>
+
+        <div class="nav-menu">
+          <a href="#inicio">Início</a>
+          <a href="#conceito">Conceito</a>
+          <a href="#aula">Aula</a>
+          <a href="#codigo">Código</a>
+        </div>
+
+        <button class="menu-button" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+
+      <section id="inicio" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Projeto prático de animação com scroll</p>
+          <h1>ORBIT</h1>
+          <p class="subtitle">
+            Uma landing page educativa com elementos que se movimentam conforme
+            o usuário rola a página.
+          </p>
+        </div>
+
+        <img id="Planeta" src="Assets/planet.svg" alt="Planeta azul com anel" />
+        <img id="Drone" src="Assets/drone-orbit.svg" alt="Drone espacial animado" />
+        <img id="Spark1" class="spark" src="Assets/spark.svg" alt="" />
+        <img id="Spark2" class="spark" src="Assets/spark.svg" alt="" />
+        <img id="Orb1" class="orb" src="Assets/orb.svg" alt="" />
+        <img id="Orb2" class="orb" src="Assets/orb.svg" alt="" />
+      </section>
+
+      <section id="conceito" class="two">
+        <div class="left-side">
+          <div class="orbit-graphic">
+            <img src="Assets/planet.svg" alt="" />
+            <span class="orbit-line orbit-line-one"></span>
+            <span class="orbit-line orbit-line-two"></span>
+          </div>
+        </div>
+
+        <div class="right-side">
+          <p class="eyebrow">Nosso projeto é de um: </p>
+          <h2>drone espacial</h2>
+          <p>
+            O objetivo continua o mesmo: usar HTML, CSS e JavaScript para criar
+            uma página visual, com um objeto principal que muda de posição,
+            escala e rotação durante o scroll.
+          </p>
+          <p>
+            A troca remove a dependência de uma marca comercial e deixa o
+            projeto mais livre para os alunos personalizarem com qualquer tema:
+            robô, foguete, personagem, produto fictício ou mascote da turma.
+          </p>
+        </div>
+      </section>
+
+      <section id="aula" class="three">
+        <article class="card card-html">
+          <div class="card-icon">&lt;/&gt;</div>
+          <h3>HTML</h3>
+          <p>Organiza o conteúdo e define os elementos que serão animados.</p>
+        </article>
+
+        <article class="card card-css">
+          <div class="card-icon">{ }</div>
+          <h3>CSS</h3>
+          <p>Cria o visual, as camadas, o responsivo e os efeitos de brilho.</p>
+        </article>
+
+        <article class="card card-js">
+          <div class="card-icon">JS</div>
+          <h3>GSAP</h3>
+          <p>Controla o movimento do drone conforme o usuário rola a página.</p>
+        </article>
+      </section>
+
+      <section id="codigo" class="lesson">
+        <div>
+          <p class="eyebrow">Desafio para a turma</p>
+          <h2>Personalize o objeto animado</h2>
+        </div>
+        <ol>
+          <li>Troque o SVG do drone por outro elemento.</li>
+          <li>Altere cores e tipografia no CSS.</li>
+          <li>Mude os valores de posição no JavaScript.</li>
+          <li>Teste o resultado rolando a página no navegador.</li>
+        </ol>
+      </section>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="body" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#E9F6FF"/>
+      <stop offset="100%" stop-color="#78C7FF"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="250" y1="210" x2="660" y2="575" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4CE8FF"/>
+      <stop offset="1" stop-color="#6B5CFF"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="130" y1="360" x2="770" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5DEBFF"/>
+      <stop offset=".5" stop-color="#F6F8FF"/>
+      <stop offset="1" stop-color="#8D67FF"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="450" cy="720" rx="190" ry="35" fill="#030712" opacity=".28"/>
+  <g>
+    <path d="M196 408C126 364 118 293 159 262c39-30 101-7 134 56l55 107c-53 28-103 21-152-17Z" fill="url(#wing)"/>
+    <path d="M704 408c70-44 78-115 37-146-39-30-101-7-134 56l-55 107c53 28 103 21 152-17Z" fill="url(#wing)"/>
+    <path d="M450 118c114 0 217 93 217 247 0 170-105 298-217 298S233 535 233 365c0-154 103-247 217-247Z" fill="url(#body)"/>
+    <path d="M450 177c72 0 136 60 136 156 0 93-61 161-136 161s-136-68-136-161c0-96 64-156 136-156Z" fill="url(#glass)"/>
+    <path d="M344 319c18-70 71-106 125-105 36 1 68 16 92 45-28-56-77-86-130-82-62 5-111 48-127 116-5 20 34 45 40 26Z" fill="white" opacity=".28"/>
+    <circle cx="390" cy="543" r="27" fill="#0F172A" opacity=".86"/>
+    <circle cx="510" cy="543" r="27" fill="#0F172A" opacity=".86"/>
+    <path d="M413 623h74l-22 84c-4 16-26 16-30 0l-22-84Z" fill="#FFB000"/>
+    <path d="M438 636h24l-7 126c-1 21-33 21-34 0l17-126Z" fill="#FF6B00" opacity=".88"/>
+    <path d="M323 625c49 42 207 42 256 0" stroke="#0F172A" stroke-width="22" stroke-linecap="round" opacity=".18"/>
+  </g>
+</svg>
